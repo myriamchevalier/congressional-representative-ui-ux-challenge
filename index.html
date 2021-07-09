@@ -8,29 +8,32 @@
     <title>Congressman Jim Cooper</title>
 </head>
 <body>
+    <!-- header contains h1 (title) and navigation bar -->
     <header>
         <!-- h1 used for title -->
         <h1>
             Jim Cooper, Congressman
         </h1>
+        <!-- nav tag for navigation bar -->
+        <nav class="navbar_top">Nav bar goes here, content tbd</nav>
     </header>
-    <!-- article contains the rest of the content, main -->
 
-    <article>
+    <!-- article contains the rest of the content, main -->
+    <article class="main">
         <!-- section is parent to the picture and information of rep -->
         <section class="rep">
-            <!-- div is container for the image-->
+            <!-- container for img -->
             <div class="rep__pic">
                 <img src="images/jim_cooper.jpg" alt="Representative Jim Cooper">
             </div>
-        <!-- container for paragraphs -->
+            <!-- container for paragraphs -->
             <div class="rep__info">
-                <!-- p containers for rest of info, diff classes for styles -->
                 <p>Jim Cooper</p>
                 <p>5th Congressional District</p>
                 <p>Democratic Party</p>
             </div>
         </section>
+        <!-- this section is parent of list of committees -->
         <section class="committees">
             <h3>Committees</h3>
             <ul>
@@ -38,13 +41,25 @@
                 <li>Oversight and Reform</li>
                 <li>Budget</li>
             </ul>
+        <!-- section parent of legislature list -->
         </section>
         <section class="legislature">
-            
-            To view Jim's sponsored legislation, you can head <a href="https://cooper.house.gov/legislation/sponsored-legislation">here</a>
+            <h3>Enacted Legislation</h3>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <p>To view Jim's sponsored legislation, you can head <a href="https://cooper.house.gov/legislation/sponsored-legislation">here</a></p>
         </section>
     </article>
 
+    <!-- footer contains bottom navbar (nav tag) -->
+    <footer>
+        <nav class="navbar_bottom">Nav bar goes here, content tbd</nav>
+    </footer>
 </body>
 
 </html>

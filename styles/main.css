@@ -1,5 +1,6 @@
 body {
-    background-color: lightskyblue;
+    background-color #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
     text-align: left;
@@ -14,6 +15,7 @@ article {
     justify-content:flex-start;
     font-size: 1em;
 }
+}
 .rep__pic img {
     max-width: 100%;
     height: auto;
@@ -22,7 +24,7 @@ article {
 .rep__info{
     padding: 1em;
 }
-.committees{
-    padding: 1em;
-    margin: 10%;
+.committees h3{
+    padding-left: 10%;
+    margin: 0;
 }
