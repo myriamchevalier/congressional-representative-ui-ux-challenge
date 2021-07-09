@@ -1,0 +1,28 @@
+body {
+    background-color: lightskyblue;
+}
+header {
+    text-align: left;
+    margin: 4em;
+}
+header h1 {
+    font-size: 1.5em;
+}
+article {
+    display: flex;
+    margin: 4em;
+    justify-content:flex-start;
+    font-size: 1em;
+}
+.rep__pic img {
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+}
+.rep__info{
+    padding: 1em;
+}
+.committees{
+    padding: 1em;
+    margin: 10%;
+}
