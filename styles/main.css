@@ -9,7 +9,7 @@ header {
 header h1 {
     font-size: 1.5em;
 }
-article {
+.main {
     display: flex;
     margin: 4em;
     justify-content:flex-start;
@@ -17,23 +17,29 @@ article {
     max-width: 100%;
     height: auto;
 }
+.rep {
+    flex: 1 1 0;
 }
 .rep__pic img {
     max-width: 100%;
     height: auto;
-    padding: 1em;
-}
-.rep__info{
-    padding: 1em;
 }
 .committees {
+    flex: 1 1 0;
     padding: 0 0.5em 0 0.5em;
 }
 .committees h3{
     padding-left: 10%;
     margin: 0;
 }
+.committees p {
+    padding-left: 10%;
+}
+.committees__list {
+    padding-left: 15%;
+}
 .legislature {
+    flex: 2 1 0;
     margin-left: 1em;
 }
 .legislature h3{
