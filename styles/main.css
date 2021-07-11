@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right,#0085CC, #F9F9F9);
+    background: linear-gradient(to right,#0085CC, #F9F9F9);
     font-family: Lucida Sans Unicode, Lucida Grande, Sans-Serif;
     margin: 0;
 }
@@ -66,4 +66,28 @@ header h1 {
 .legislature h3{
     padding-left: 1em%;
     margin: 0;
+}
+footer {
+    background-color:#003049 ;
+    margin: auto;
+    height:12em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer h4 {
+    color: white;
+    margin: 1em 3em 1em 2em;
+    padding: 1em 3em 1em 6em;
+}
+.contact {
+    display: flex;
+    color: white;
+    margin: 1em 3em 1em 6em;
+}
+.contact__nashville {
+    padding: 0 1em 0 2em;
+}
+.contact__washington {
+    padding: 0 1em 0 2em;
 }
