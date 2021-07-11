@@ -1,13 +1,22 @@
 body {
-    background-color #000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F9F9F9;
+    font-family: Lucida Sans Unicode, Lucida Grande, Sans-Serif;
+    margin: 0;
 }
 header {
+    background-color: #003049;
+    color: white;
     text-align: left;
-    margin: 4em;
+    margin: auto;
+    height: 8em;
 }
 header h1 {
     font-size: 1.5em;
+    margin: 0;
+    padding: 2em 0 0 1em;
+}
+.navbar_top {
+    margin: 1em;
 }
 .main {
     display: flex;
@@ -41,6 +50,9 @@ header h1 {
 .legislature {
     flex: 2 1 0;
     margin-left: 1em;
+}
+.legislature:hover {
+    color: 
 }
 .legislature h3{
     padding-left: 1em%;
