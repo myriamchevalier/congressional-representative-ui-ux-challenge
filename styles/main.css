@@ -1,5 +1,5 @@
 body {
-    background-color: #F9F9F9;
+    background: linear-gradient(to bottom right,#0085CC, #F9F9F9);
     font-family: Lucida Sans Unicode, Lucida Grande, Sans-Serif;
     margin: 0;
 }
@@ -15,9 +15,6 @@ header h1 {
     margin: 0;
     padding: 2em 0 0 1em;
 }
-.navbar_top {
-    margin: 1em;
-}
 .main {
     display: flex;
     margin: 4em;
@@ -25,17 +22,25 @@ header h1 {
     font-size: 1em;
     max-width: 100%;
     height: auto;
+    
 }
 .rep {
     flex: 1 1 0;
+    padding: 2em 2em 1em 2em;
+    background-color: rgba(249, 249, 249, 0.3);
+    border: 0.5em;
+    border-radius: 10%;
 }
 .rep__pic img {
     max-width: 100%;
     height: auto;
+    border: 0.5em;
+    border-radius: 10%;
+    opacity: 1;
 }
 .committees {
     flex: 1 1 0;
-    padding: 0 0.5em 0 0.5em;
+    padding: 2em 0.5em 0 0.5em;
 }
 .committees h3{
     padding-left: 10%;
